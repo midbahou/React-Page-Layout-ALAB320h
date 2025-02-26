@@ -4,8 +4,8 @@ function EmployeeListItem({image, employeeName, profession}) {
 // function EmployeeListItem() {
     
     return (
-    // <div className="Employee-List-Item">
-    <div style={{border: "3px solid red", padding: "10px", marginBottom: "3px", display:"flex"}}>
+
+    <div style={{border: "3px solid red", padding: "10px", marginBottom: "3px", display:"flex", backgroundColor: "red"}}>
         <img src={image} alt="Employee image" style={styles}/>
 
         <div>
@@ -15,7 +15,6 @@ function EmployeeListItem({image, employeeName, profession}) {
 
     </div>
 
-    // </div> 
 )
 }
 
@@ -23,8 +22,6 @@ const styles = {
     borderRadius: "30%",
     width: "100px",
     marginRight: "10px",
-    // display: "flex",
-    // justifyContent: "space-around"
 }
 
 
